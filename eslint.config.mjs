@@ -20,5 +20,8 @@ export default tseslint.config(
             ...globals.node,
         }
     }
+},
+{
+    ignores: ["**/node_modules/", "**/dist/"],
 }
 );
