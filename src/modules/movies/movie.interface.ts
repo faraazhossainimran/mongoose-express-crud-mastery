@@ -1,5 +1,5 @@
 
-type TReview = {
+export type TReview = {
     email: string;
     rating: number;
     comment: string;
@@ -8,7 +8,7 @@ type TReview = {
 export type TMovie = {
     title: string;
     description: string;
-    releaseDate: string; // ISO 8601 date string
+    releaseDate: Date; // ISO 8601 date string
     genre: string;
     isDeleted: boolean;
     viewCount: number;
